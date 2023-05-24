@@ -5,97 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pagina</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h1>Test BIT - Bootcamp</h1>
-      <nav>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Damddev</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
         <ul>
           <li><a href="#">Main</a></li>
-          <li><a href="#desc">Description</a></li>
+          <li><a href="#">Description</a></li>
           <li><a href="#skills">Skills</a></li>
         </ul>
-      </nav>
-    </header>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO 👋</p>
+          <h1 class="title">
+            I'm <span>Danny Alejandro<br /></span> Frontend Developer
+          </h1>
+          <p class="description">
+            I'm a Multimedia Engineering student with a passion for technology
+            and programming. I'm always looking to expand my knowledge and
+            skills by taking on new challenges and projects that allow me to
+            apply my creativity and efficiency to develop innovative solutions.
+          </p>
+          <div class="action__btns">
+            <a
+              href="https://www.linkedin.com/in/danny-alejandro-martinez-duque-116551199/"
+              target="_blank"
+            >
+              <button class="hire__me">LinkedIn</button>
+            </a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="foto1.png" alt="profile" />
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <div class="content__skills">
+            <h2 id="skills">Skills 🎯</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>React Native</li>
 
-    <main>
-      <hr />
-      <figure>
-        <img style="height: 400px" src="./me.jpg" alt="BIT" />
-        <figcaption><b>Danny Alejandro Martinez Duque - Age 22</b></figcaption>
-      </figure>
-
-      <hr />
-      <section id="desc">
-        <h2>Description</h2>
-        <p>
-          👋 Hi, I'm a Multimedia Engineering student with a passion for
-          technology and programming. I'm always looking to expand my knowledge
-          and skills by taking on new challenges and projects that allow me to
-          apply my creativity and efficiency to develop innovative solutions. I
-          have experience in web and mobile development, working with various
-          technologies such as JavaScript, HTML, CSS, React (JS/Native), Huawei
-          HMS Kits, MySQL, API Rest and Angular. As a self-taught individual, I
-          am always seeking new opportunities to learn and develop new skills.
-          I'm seeking opportunities to apply my skills and knowledge in
-          developing innovative solutions that help businesses achieve their
-          goals. I'm a team player and I'm confident I can bring a lot of value
-          to any project I'm involved in. If you're interested in learning more
-          about me and my work, please don't hesitate to get in touch. I'm
-          always open to new opportunities and challenges.
-        </p>
-      </section>
-
-      <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>React Native</li>
-
-          <li>MySQL</li>
-          <li>API Rest</li>
-          <li>Huawei HMS Kits</li>
-        </ul>
-
-        <h2>Experience</h2>
-
-        <ul>
-          <li>Web Developer - Freelance</li>
-          <li>Mobile Developer - Freelance</li>
-        </ul>
-      </section>
-
-      <section>
-        <table>
-          <thead>
-            <tr>
-              <th>Hobbies</th>
-              <th>Daily hours</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Video Games</td>
-              <td>3</td>
-            </tr>
-            <tr>
-              <td>Music</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>Chinese</td>
-              <td>2</td>
-            </tr>
-            <tr>
-              <td>Programming</td>
-              <td>5</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-    </main>
+              <li>MySQL</li>
+              <li>API Rest</li>
+              <li>Huawei HMS Kits</li>
+            </ul>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content__skills">
+            <h2>Hobbies 🎮</h2>
+            <ul>
+              <li>Videogames</li>
+              <li>Chinese</li>
+              <li>Music</li>
+              <li>Sports</li>
+              <li>War related content</li>
+              <li>Crypto</li>
+              <li>VR</li>
+              <li>Duolingo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
