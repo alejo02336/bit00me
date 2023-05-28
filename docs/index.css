@@ -47,7 +47,6 @@ nav .logo a {
   font-size: 1.5rem;
   font-weight: 600;
   color: white;
-  transition: 0.3s;
 }
 nav .logo a:hover {
   color: var(--primary-color-dark);
@@ -164,7 +163,7 @@ ul li a:hover {
   outline: none;
   border: 2px solid var(--primary-color);
   border-radius: 10px;
-  transition: 0.3s;
+
   cursor: pointer;
 }
 
@@ -242,5 +241,6 @@ h2 {
   .content__skills ul {
     position: initial;
     height: auto;
+    background-color: transparent;
   }
 }
